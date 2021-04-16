@@ -23,19 +23,38 @@ color: white;
 #aboutUs{
     text-align:center;
     margin-top: 50px;
+   
 }
 
 #services{
     background-image: url("../images/assets/backgrounds/s_image.jpg");
+   background-repeat: no-repeat;
     height: 50vh;
     text-align:center;
     color:white;
     padding: 100px;
     margin-top: 50px;
+    
 }
 @media only screen and (max-width: 768px) {
     
-
+#services{
+    padding:50px;
+}
    
 
 }
+#what h2{
+    text-align:center;
+}
+.what-we-do{
+    text-align:center; 
+}
+ #whatWeDo{
+     text-align:center;
+     margin-top: 50px;
+     
+ }
+ #whatWeDo h2{
+     padding-bottom: 50px;
+ }
