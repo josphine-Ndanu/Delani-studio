@@ -58,3 +58,16 @@ color: white;
  #whatWeDo h2{
      padding-bottom: 50px;
  }
+.desc{
+    display: none;
+}
+ .col-md-3 img {  
+    width: 300px;
+    border: solid #fff;
+    }
+    #portfolio h2{
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px
+    }
+    
