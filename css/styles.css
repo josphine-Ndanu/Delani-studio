@@ -15,8 +15,13 @@ color: white;
 .home-content img{
     margin: 20px;
 } 
+
 .mclick{
     margin-top:50px;
+}
+
+#aboutUs{
+    text-align:center;
 }
 
 @media only screen and (max-width: 768px) {
