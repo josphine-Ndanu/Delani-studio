@@ -74,10 +74,13 @@
     margin-top: 50px;
     margin-bottom: 50px
 }
-
+#portfolio{
+    width:80%;
+}
 .col-md-3 img {
-    width: 300px;
-    border: solid #fff;
+   width: 100%;
+   height: 100%;
+   
 }
 
 #contact {
@@ -114,13 +117,17 @@ form #msg{
 #email,
 #msg {
     background-color: transparent;
-    color: white;
+ 
 }
 
 #footer {
     text-align: center;
     margin-top:50px;
+   
 }
 #footer #icons{
     padding-bottom: 20px;
+}
+#footer img{
+    padding: 5px;
 }
