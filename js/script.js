@@ -14,3 +14,9 @@
         $(".produc-desc ").toggle();
     });
 
+    $(".prjcts").click(function () {
+        $(".overlay").show();
+    });
+    // $("#portfolio2").click(function () {
+    //     $(".overlay2").show();
+    // });

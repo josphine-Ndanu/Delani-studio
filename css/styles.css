@@ -76,6 +76,7 @@
 }
 #portfolio{
     width:80%;
+   
 }
 .col-md-3 img {
    width: 100%;
@@ -130,4 +131,31 @@ form #msg{
 }
 #footer img{
     padding: 5px;
+}
+
+#prjcts{
+    position:relative ;
+}
+#portfolio{
+
+}
+ .overlay{
+    display: none; 
+     width: 80%;
+     height: 80%;
+     opacity: 2.5;
+     z-index: 1;
+     position: absolute;
+     top: 0;
+     text-align: center;
+     font-size:30px;
+     border-color: white;
+     margin-top:10px;
+     margin-bottom:10px;
+     margin-right:50px;
+     margin-left:10px;
+     font-weight:700px;
+     border: 5px solid white;
+     color: white;
+
 }
