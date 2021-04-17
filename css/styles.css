@@ -65,8 +65,8 @@
     padding-bottom: 50px;
 }
 
-.desc {
-    display: non;
+.dev-desc, .design-desc, .produc-desc {
+    display: none;
 }
 
 #portfolio h2 {
