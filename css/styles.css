@@ -116,7 +116,7 @@ form {
 
 form #msg {
     height: 150px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 #name,
@@ -165,4 +165,8 @@ form #msg {
     border: 5px solid white;
     color: white;
 
+}
+.form-control{
+    background-color:transparent;
+  
 }
