@@ -8,12 +8,15 @@
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
     <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
     <title>Delani-Studio</title>
 
 </head>
 
 <body>
-    <div id="home" class="container-fluid ">
+    <div id="home" class="container-fluid landing">
 
         <div class="carousel-caption home-content">
 
@@ -25,15 +28,19 @@
 
         </div>
         <div class="carousel-caption ">
-            <img src="./images/assets/mouse_click.png" class="mclick">
+            <a href="#aboutUs">
+                <img src="./images/assets/mouse_click.png" class="mclick mx-auto d-block pt-8 jump">
+            </a>
+            <!-- <img src="./images/assets/mouse_click.png" class="mclick"> -->
         </div>
 
 
 
     </div>
 
-    <div id="aboutUs" class="container-fluid">
-        <h2>ABOUT US</h2>
+    <div id="aboutUs" class="container-fluid about">
+          <h2>ABOUT US</h2>
+      
         <p>When you work with us, you are a part of a team of committed collaborators. All aspects of our software
             development process are intergrated, interactive <br>and agile </p>
         <p>Our approach unifies design, development and product management to create exceptional products.</p>
@@ -177,10 +184,12 @@
             <div id="mc_embed_signup_scroll">
                 <div class="row">
                     <div class="col">
-                        <input type="text" class="form-control" id="name" placeholder="Name... " required>
+                        <input type="text" name="NAME" class="form-control required" id="mce-NAME" placeholder="Name... " >
+                        <!-- <input type="text" value="" name="NAME" class="required" id="mce-NAME"> -->
                     </div>
                     <div class="col">
-                        <input type="email" class="form-control" id="email" placeholder="Email..." required>
+                        <input type="email" name="EMAIL" class="form-control required email" id="mce-EMAIL" placeholder="Email..." required>
+                        <!-- <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL"> -->
                     </div>
                 </div>
 
@@ -190,9 +199,10 @@
                         <textarea class="form-control" id="msg" rows="6" placeholder="Your message here..."></textarea>
                     </div>
                     <div class=" clear col-2 mt-3 mx-auto mb-4">
-                        <input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe" class="submitInfo">
-                        
-                            
+                        <input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe"
+                            class="submitInfo">
+
+
                     </div>
                 </div>
         </form>
