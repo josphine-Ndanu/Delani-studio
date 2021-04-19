@@ -1,5 +1,7 @@
 #DELANI STUDIO
 
+![](images/assets/delani-demo.png)
+
 ## Author
 Josphine Ndanu, josphinendanu3@gmail.com
 
@@ -28,7 +30,7 @@ This will clone the repository into your local folder
  Git
 
 ### Live Site
-View [live]()
+View [live](https://josphine-ndanu.github.io/Delani-studio/)
 
 ### Licence
 This project is under the  [MIT](LICENSE) licence
