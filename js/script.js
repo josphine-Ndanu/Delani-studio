@@ -92,7 +92,7 @@ $(".submitInfo").click(function (event) {
     var email = $("#mce-EMAIL").val();
     var message = $("#msg").val();
     if ($("#mce-NAME").val() || $("#msg").val())  {
-        alert(name + " Delani studio, We appreciate your feedback.:)");
+        alert("Hello "+ name + " ,We appreciate your feedback.:)");
     } else {
         alert("Please fill all fields!");
     }

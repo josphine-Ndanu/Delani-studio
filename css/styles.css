@@ -110,6 +110,10 @@ html{
 form {
     width: 50%;
     margin: auto;
+    
+}
+#mc_embed_signup {
+    background: transparent;
 }
 
 .form-control::placeholder {
