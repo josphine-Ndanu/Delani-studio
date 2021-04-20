@@ -1,4 +1,4 @@
-#DELANI STUDIO
+# DELANI STUDIO
 
 ![](images/assets/delani-demo.png)
 
@@ -7,7 +7,7 @@ Josphine Ndanu, josphinendanu3@gmail.com
 
 
 ## Description
-This project helps identify the day you were born then also ouputs your Ghananian Akan name based on the input you give.
+This isa virtual studio landing page for Delani Studio. It shows the services offered and their portfolio.
 
 
 ### Prerequisites
